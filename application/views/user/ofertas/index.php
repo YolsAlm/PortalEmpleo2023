@@ -10,17 +10,17 @@
         </a>
         <a class="p-1" href="' . base_url() . 'user/ofertas/Indefinido">
             <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Filtrar ofertas por tipo de contrato indefinido">
-                <i class="fa fa-bowling-ball text-white"></i>
+                <i class="fa fa-bowling-ball text-white"></i> Indefinido
             </button>
         </a>
         <a class="p-1" href="' . base_url() . 'user/ofertas/Parcial">
             <button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Filtrar ofertas por tipo de contrato parcial">
-                <i class="fas fa-hamburger text-white"></i>
+                <i class="fas fa-bowling-ball text-white"></i> Parcial
             </button>
         </a>        
         <a class="p-1" href="' . base_url() . 'user/ofertas/Temporal">
             <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Filtrar ofertas por tipo de contrato temporal">
-                <i class="fas fa-archway text-white"></i>
+                <i class="fas fa-bowling-ball text-white"></i> Temporal
             </button>
         </a>
     </div>
@@ -50,7 +50,7 @@
                     <a href="' . base_url() . 'user/ver_oferta/' . $this->session->userdata('id') . '/' . $row->id . '">
                         <div class="card-body text-center">
                             <h4 class="card-title">' . $row->nombre_empresa . '<small></h4>
-                            <h3 class="text-white" data-toggle="tooltip" data-placement="top" title="Parcial"><i class="fas fa-archway"></i></small></h3>
+                            <h3 class="text-white" data-toggle="tooltip" data-placement="top" title="Parcial"><i class="fas fa-bowling-ball"></i></small></h3>
                             <p class="card-text bg-dark text-white rounded">' . $row->descripcion . '</p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                     <a href="' . base_url() . 'user/ver_oferta/' . $this->session->userdata('id') . '/' . $row->id . '">
                         <div class="card-body text-center">
                             <h4 class="card-title">' . $row->nombre_empresa . '<small></h4>
-                            <h3 class="text-white" data-toggle="tooltip" data-placement="top" title="Temporal"><i class="fas fa-hamburger"></i></small></h3>
+                            <h3 class="text-white" data-toggle="tooltip" data-placement="top" title="Temporal"><i class="fas fa-bowling-ball"></i></small></h3>
                             <p class="card-text bg-dark text-white rounded">' . $row->descripcion . '</p>
                         </div>
                     </div>
